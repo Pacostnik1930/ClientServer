@@ -12,6 +12,8 @@ namespace Client
         {
             client = new TcpClient("127.0.0.1", 5555);
             sReader = new StreamWriter(client.GetStream());
+
+            HandleCommunication();
         }
 
         void HandleCommunication()
