@@ -8,6 +8,7 @@
         {
 
             Console.WriteLine("Это наш клиент");
+            OutClient outClient = new OutClient();
 
         }
 
